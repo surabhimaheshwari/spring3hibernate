@@ -27,4 +27,4 @@ jobs:
         run: mvn compile
         
       - name: Maven build
-        run: mvn build
+        run: mvn test
